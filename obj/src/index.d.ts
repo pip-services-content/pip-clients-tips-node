@@ -1,2 +1,2 @@
 export * from './version1';
-export { TipsFactory } from './build/TipsFactory';
+export { TipsClientFactory } from './build/TipsClientFactory';

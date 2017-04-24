@@ -6,7 +6,7 @@ and provides high-level API to access the microservice for simple and productive
 
 * [Installation](#install)
 * [Getting started](#get_started)
-* [DocumentReferenceV1 class](#class1)
+* [AttachmentV1 class](#class1)
 * [PartyRefereneceV1 class](#class2)
 * [TipV1 class](#class4)
 * [ITipsClientV1 interface](#interface)
@@ -116,7 +116,7 @@ client.open(null, function(err) {
 
 ## Data types
 
-### <a name="class1"></a> DocumentReferenceV1 class
+### <a name="class1"></a> AttachmentV1 class
 
 Contains reference to a document attachment
 
@@ -146,7 +146,7 @@ Represents a system tip.
 - content: MultiString - tip textual content in multiple languages
 - more_url: string - (optional) URL with additional information
 - pic_ids: [string] - (optional) array of picture block ids in storage attached to this tip
-- docs: [DocumentReferenceV1] - (optional) array of attached documents
+- docs: [AttachmentV1] - (optional) array of attached documents
 - tags: [string] - (optional) explicit tags with annoucement topic for searching
 - all_tags: [string] - (readonly) normalized array of explicit and hash tags used by search
 - status: string - editing status: 'new', 'writing', 'translating', 'completed' (default: 'new')

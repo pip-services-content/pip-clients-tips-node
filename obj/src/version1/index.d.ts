@@ -1,4 +1,4 @@
-export { DocumentReferenceV1 } from './DocumentReferenceV1';
+export { AttachmentV1 } from './AttachmentV1';
 export { PartyReferenceV1 } from './PartyReferenceV1';
 export { TipStatusV1 } from './TipStatusV1';
 export { TipV1 } from './TipV1';

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const pip_services_commons_node_1 = require("pip-services-commons-node");
 const pip_services_commons_node_2 = require("pip-services-commons-node");
 const pip_services_net_node_1 = require("pip-services-net-node");
-//import { ITipsBusinessLogic } from 'pip-services-tips-node';
+//import { ITipsController } from 'pip-services-tips-node';
 class TipsDirectClientV1 extends pip_services_net_node_1.DirectClient {
     constructor(config) {
         super();

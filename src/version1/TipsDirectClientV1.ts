@@ -9,7 +9,7 @@ import { DirectClient } from 'pip-services-net-node';
 import { TipV1 } from './TipV1';
 import { PartyReferenceV1 } from './PartyReferenceV1';
 import { ITipsClientV1 } from './ITipsClientV1';
-//import { ITipsBusinessLogic } from 'pip-services-tips-node';
+//import { ITipsController } from 'pip-services-tips-node';
 
 export class TipsDirectClientV1 extends DirectClient<any> implements ITipsClientV1 {
             
