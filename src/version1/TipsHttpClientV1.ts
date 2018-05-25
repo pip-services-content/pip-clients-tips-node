@@ -12,7 +12,7 @@ import { ITipsClientV1 } from './ITipsClientV1';
 export class TipsHttpClientV1 extends CommandableHttpClient implements ITipsClientV1 {
 
     constructor(config?: any) {
-        super('tips');
+        super('v1/tips');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
