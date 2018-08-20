@@ -1,7 +1,7 @@
 import { FilterParams } from 'pip-services-commons-node';
 import { PagingParams } from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { DirectClient } from 'pip-services-net-node';
+import { DirectClient } from 'pip-services-rpc-node';
 import { TipV1 } from './TipV1';
 import { ITipsClientV1 } from './ITipsClientV1';
 export declare class TipsDirectClientV1 extends DirectClient<any> implements ITipsClientV1 {

@@ -1,5 +1,5 @@
 import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-commons-node';
+import { Factory } from 'pip-services-components-node';
 
 import { TipsDirectClientV1 } from '../version1/TipsDirectClientV1';
 import { TipsHttpClientV1 } from '../version1/TipsHttpClientV1';

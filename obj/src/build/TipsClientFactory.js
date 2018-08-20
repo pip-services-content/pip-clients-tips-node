@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_commons_node_2 = require("pip-services-commons-node");
+const pip_services_components_node_1 = require("pip-services-components-node");
 const TipsDirectClientV1_1 = require("../version1/TipsDirectClientV1");
 const TipsHttpClientV1_1 = require("../version1/TipsHttpClientV1");
 const TipsSenecaClientV1_1 = require("../version1/TipsSenecaClientV1");
-class TipsClientFactory extends pip_services_commons_node_2.Factory {
+class TipsClientFactory extends pip_services_components_node_1.Factory {
     constructor() {
         super();
         this.registerAsType(TipsClientFactory.DirectClientV1Descriptor, TipsDirectClientV1_1.TipsDirectClientV1);
