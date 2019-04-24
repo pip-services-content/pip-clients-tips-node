@@ -5,5 +5,4 @@ export { TipV1 } from './TipV1';
 export { ITipsClientV1 } from './ITipsClientV1';
 export { TipsHttpClientV1 } from './TipsHttpClientV1';
 export { TipsLambdaClientV1 } from './TipsLambdaClientV1';
-export { TipsSenecaClientV1 } from './TipsSenecaClientV1';
 export { TipsDirectClientV1 } from './TipsDirectClientV1';

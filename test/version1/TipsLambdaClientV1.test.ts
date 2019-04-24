@@ -1,6 +1,6 @@
 let process = require('process');
 
-import { ConfigParams } from 'pip-services-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
 
 import { TipsClientFixtureV1 } from './TipsClientFixtureV1';
 import { TipsLambdaClientV1 } from '../../src/version1/TipsLambdaClientV1';
