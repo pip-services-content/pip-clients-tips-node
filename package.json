@@ -1,6 +1,6 @@
 {
     "name": "pip-clients-tips-node",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Conceptual Vision Consulting LLC",
     "description": "Node.js client sdk for pip-services-tips microservice",
     "contributors": [
@@ -48,13 +48,9 @@
         "@types/async": "^2.0.0",
         "@types/chai": "*",
         "@types/mocha": "*",
-        "@types/mongodb": "^2.1.38",
-        "@types/mongoose": "^4.7.4",
         "restify": "^4.3.0",
         "chai": "*",
-        "matcha": "*",
         "mocha": "*",
-        "aws-sdk": "*",
-        "pip-services-tips-node": "git+ssh://git@github.com:pip-services-content/pip-services-tips-node.git"
+        "pip-services-tips-node": "^1.1.0"
     }
 }

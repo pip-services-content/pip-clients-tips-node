@@ -11,8 +11,8 @@ class TipsClientFactory extends pip_services3_components_node_1.Factory {
         this.registerAsType(TipsClientFactory.HttpClientV1Descriptor, TipsHttpClientV1_1.TipsHttpClientV1);
     }
 }
+exports.TipsClientFactory = TipsClientFactory;
 TipsClientFactory.Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-tips', 'factory', 'default', 'default', '1.0');
 TipsClientFactory.DirectClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-tips', 'client', 'direct', 'default', '1.0');
 TipsClientFactory.HttpClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-tips', 'client', 'http', 'default', '1.0');
-exports.TipsClientFactory = TipsClientFactory;
 //# sourceMappingURL=TipsClientFactory.js.map
