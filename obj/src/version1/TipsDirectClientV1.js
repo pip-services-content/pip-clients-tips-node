@@ -20,7 +20,7 @@ class TipsDirectClientV1 extends pip_services3_rpc_node_1.DirectClient {
     }
     getRandomTip(correlationId, filter, callback) {
         let timing = this.instrument(correlationId, 'tips.get_random_tip');
-        this._controller.getTips(correlationId, filter, (err, tip) => {
+        this._controller.getRandomTip(correlationId, filter, (err, tip) => {
             timing.endTiming();
             callback(err, tip);
         });

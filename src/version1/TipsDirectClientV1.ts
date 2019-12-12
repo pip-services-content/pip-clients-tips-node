@@ -33,7 +33,7 @@ export class TipsDirectClientV1 extends DirectClient<any> implements ITipsClient
     public getRandomTip(correlationId: string, filter: FilterParams,
         callback: (err: any, tip: TipV1) => void): void {
         let timing = this.instrument(correlationId, 'tips.get_random_tip');
-        this._controller.getTips(correlationId, filter, (err, tip) => {
+        this._controller.getRandomTip(correlationId, filter, (err, tip) => {
             timing.endTiming();
             callback(err, tip);
         });
